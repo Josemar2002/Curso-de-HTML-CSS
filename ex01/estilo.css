@@ -1,0 +1,15 @@
+
+#titulo, 
+.texto{
+    color: blue;
+    font-size: 25px;
+}
+#titulo{
+    font-weight: normal;
+}
+.texto{
+    font-weight: bold;
+}
+ol li {
+    color:pink;
+} 
