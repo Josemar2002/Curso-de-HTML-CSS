@@ -7,3 +7,6 @@
 .texto:hover{
     color: red;
 }
+.texto:visited {
+    color: blueviolet;
+}
