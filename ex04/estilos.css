@@ -6,14 +6,15 @@ body{
     font-size: 17px;
 }
 p{
-    color: blue;
-    font-size:17px;
+    color: rgb(25, 25, 243);
+    font-size:30px;
     font-weight:bold;
-    font-family:Helvetica, sans-serif;
+    font-family: 'Lora', serif;
     text-align: left;
-    text-shadow:2px 2px 3px #0e0c0c;
+}
+h1{
+    font-family:'Croissant One', cursiva;
     
-
 }
 a{
     text-decoration:none;
