@@ -1,0 +1,22 @@
+table{
+    width: 600px;
+}
+th, td{
+    border:2px solid black;
+    padding:10px;
+}
+table thead{
+    background-color: rgb(8, 8, 252);
+    color: aliceblue;
+}
+table tbody{
+    background-color:#3b3838;
+    color:white;
+    text-align: center;
+}
+tbody tr td:hover{
+    background-color: #2994f8;
+}
+tbody tr:nth-child(even){
+    background-color: #928e8e;
+}
