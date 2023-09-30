@@ -3,31 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="formularios.css">
     <title>Criação de tabela</title>
 </head>
 <body>
     <!-- vistos ate agora text (email password) radio submit checkbox (get url e post na tela) -->
     
     <h1>Criando formulários</h1>
-    <h2>Area de login</h2>
-    <form action="">
-
-    </form>
-
     <h2>Area de cadastro</h2>
     <form action="login.html" method="get">
-        <textarea name="texto" ></textarea> <br>
+        
+         <label>
 
-        <select name="ordenacaao">
-            <option value="jr">mais vendidos</option>
-            <option value="Josemar" selected>recentes</option>
+            Nome: <br>
+            <input type="text">
 
-        </select>
+        </label> 
 
-        <input type="text" nome="usuario" value="Josemar">
+        <label>
+            descrição: <br>
 
-        <input type="datetime-local" nome="data">
+            <textarea name="descricao"></textarea>
 
-        <input type="submit" >
+
+        </label>
+        <label >
+            Categoria: <br>
+            <select name="categoria">
+                <option value="1">Categoria 1</option>
+                <option value="2">Categoria 2</option>
+                <option value="3">Categoria 3</option>
+                <option value="4">Categoria 4</option>
+                <option value="5">Categoria 5</option>
+                
+            </select>
+        </label>
+        
+
+        <label>
+
+        <input type="checkbox" >
+
+            Eu li e concordo com os <a href="paginas.html" target="_blank" class="termoslink">termo de serviço</a>.
+
+        </label>
+         
+        <button>fazer cadastro</button>
+
+
+
     </form>
+
+    
+</bod
