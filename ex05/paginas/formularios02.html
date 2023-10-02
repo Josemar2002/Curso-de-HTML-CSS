@@ -8,6 +8,7 @@
 </head>
 <body>
  <form action="login.html" method="post">
+    <input type="hidden" name="Pais" value="BR"/>
     <fieldset>
         <legend>Dados pessoais</legend>
         <label>
@@ -18,24 +19,31 @@
 
         <label>
             Segundo Sobrenome: <br>
-            <input type="text" name="lastnome" required minlength="2" maxlength="20">
+            <input type="text" name="lastnome" required >
 
         </label><br>
-        <label>
-            Idade: <br>
-            <input type="number" name="age" min="18" max="100">
-
-        </label> <br>
         <label>
             Email: <br>
             <input type="text" name="email" >
 
         </label> <br>
 
+        <label>
+            Foto: <br>
+            <input type="file" name="Foto" required accept="image/*">
+
+        </label><br>
+
+        <label>
+            Idade: <br>
+            <input type="number" name="age" min="18" max="100">
+
+        </label> <br>
+
 
         <label>
             Data de nascimento: <br>
-            <input type="date" name="date" min="2023-08-10" max="2024-01-01">
+            <input type="date" name="date" min="2000-01-10" max="2024-01-01">
 
         </label>
 
@@ -62,7 +70,7 @@
         
 
     </fieldset>
-    <input type="submit" value="Cadastrar">
+    <input class="botao" type="submit" value="Cadastrar">
 
  </form>   
 

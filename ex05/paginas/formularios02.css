@@ -29,3 +29,13 @@ input[type=text]{
     color: rgb(118, 7, 245);
 
 }
+.botao{
+    background-color:rgb(118, 7, 245);
+    padding: 10px;
+    color: aliceblue;
+    border: 2px solid blueviolet;
+}
+.botao:hover{
+    background-color:aqua;
+    color: black;
+}
