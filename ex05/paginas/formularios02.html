@@ -7,72 +7,76 @@
     <title>formulario</title>
 </head>
 <body>
- <form action="login.html" method="post">
-    <input type="hidden" name="Pais" value="BR"/>
-    <fieldset>
-        <legend>Dados pessoais</legend>
-        <label>
-            Primeiro Nome: <br>
-            <input type="text" name="nome" required>
-
-        </label> <br>
-
-        <label>
-            Segundo Sobrenome: <br>
-            <input type="text" name="lastnome" required >
-
-        </label><br>
-        <label>
-            Email: <br>
-            <input type="text" name="email" >
-
-        </label> <br>
-
-        <label>
-            Foto: <br>
-            <input type="file" name="Foto" required accept="image/*">
-
-        </label><br>
-
-        <label>
-            Idade: <br>
-            <input type="number" name="age" min="18" max="100">
-
-        </label> <br>
-
-
-        <label>
-            Data de nascimento: <br>
-            <input type="date" name="date" min="2000-01-10" max="2024-01-01">
-
-        </label>
-
-    </fieldset>
-
-    <fieldset>
-        <legend>Dados profissionais</legend>
-        <label>
-            Nome da Empresa: <br>
-            <input type="text" name="companynome">
-
-        </label><br>
-
-        <label>
-            Cargo na Empresa: <br>
-            <input type="text" name="cargonome">
-
-        </label><br>
-
-        <label>
-            Eu li e concordo com os <a href="login.html" target="_blank" class="termoslink">termos de uso.</a>
-            <input type="checkbox">
-        </label>
+    <h1>Faça seu Cadastro</h1>
+    <div class="conteudo">
+        <form action="login.html" method="post" enctype="multipart/form-data">
+            <input type="hidden" name="Pais" value="BR"/>
+            <fieldset>
+                <legend>Dados pessoais</legend>
+                <label>
+                    Primeiro Nome: <br>
+                    <input type="text" name="nome" required>
         
+                </label> <br>
+        
+                <label>
+                    Segundo Sobrenome: <br>
+                    <input type="text" name="lastnome" required >
+        
+                </label><br>
+                <label>
+                    Email: <br>
+                    <input type="text" name="email" >
+        
+                </label> <br>
+        
+                <label>
+                    Foto: <br>
+                    <input type="file" name="Foto" required accept="image/*">
+        
+                </label><br>
+        
+                <label>
+                    Idade: <br>
+                    <input type="number" name="age" min="18" max="100">
+        
+                </label> <br>
+        
+        
+                <label>
+                    Data de nascimento: <br>
+                    <input type="date" name="date" min="2000-01-10" max="2024-01-01">
+        
+                </label>
+        
+            </fieldset>
+        
+            <fieldset>
+                <legend>Dados profissionais</legend>
+                <label>
+                    Nome da Empresa: <br>
+                    <input type="text" name="companynome">
+        
+                </label><br>
+        
+                <label>
+                    Cargo na Empresa: <br>
+                    <input type="text" name="cargonome">
+        
+                </label><br>
+        
+                <label>
+                    Eu li e concordo com os <a href="login.html" target="_blank" class="termoslink">termos de uso.</a>
+                    <input type="checkbox">
+                </label>
+                
+        
+            </fieldset>
+            <input class="botao" type="submit" value="Cadastrar">
+        
+         </form>   
+    </div>
 
-    </fieldset>
-    <input class="botao" type="submit" value="Cadastrar">
-
- </form>   
 
 </body>
 </html>
