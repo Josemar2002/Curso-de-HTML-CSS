@@ -1,0 +1,11 @@
+
+.box{
+    width: 500px;
+    height: 400px;
+    background-color: rgb(126, 121, 121);
+}
+.box-interno{
+    width:50%;
+    height: 50%;
+    background-color: rgb(10, 10, 10);
+}
