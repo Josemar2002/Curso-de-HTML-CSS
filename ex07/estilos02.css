@@ -1,0 +1,32 @@
+body{
+    padding: 0;
+    background-color:white;
+}
+img{
+    width: min(50%, 300px);
+}
+h1{
+    color: rgb(14, 11, 11);
+    text-align: center;
+}
+.video{
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+}
+.video-area{
+    position: relative;
+    height: 0px;
+    backgroud-color:#555;
+    padding:  0px 0px 56.25%;
+}
+.video-area iframe{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100% ;
+    border: 0px;
+       
+}
