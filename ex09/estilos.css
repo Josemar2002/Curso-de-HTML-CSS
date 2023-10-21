@@ -1,0 +1,15 @@
+q{
+    color: #777;
+    font-style: italic;
+}
+figure{
+    border: 1px solid #777;
+    margin: 0px;
+    padding-left: 5px;
+}
+figcaption{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 2px;
+}
