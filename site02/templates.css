@@ -7,7 +7,7 @@ body{
     margin-bottom: 1500px;
 }
 header{
-    background-color: black;
+    background-color: white;
     
 }
 .container{
@@ -50,15 +50,17 @@ section .container_fundo{
     background-image: url(imagens/fundo.jpg);
     background-position: center;
     background-size: cover;
+    margin: 20px;
     height: 670px;
     padding: 20px;
    
 }
 .descrict{
     width: 50%;
-    padding: 20px;
+    padding: 15px;
     background-color: #e9e5e5;
     border-radius: 40px;
+    
     
 }
 section h2{
@@ -73,14 +75,16 @@ section h2{
 p{
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    
+    text-align: justify;
 }
 .container2{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     justify-content: flex-end;
     
 }
+
 #lg{
     display: flex;
     align-items: center;
@@ -93,6 +97,7 @@ p{
     color: rgb(10, 10, 10);
     flex-wrap: wrap;
     margin-right: 20px;
+    margin-left: 20px;
     padding: 40px;
     box-shadow: 0px 0px 10px black;
     width: 800px;
@@ -100,14 +105,18 @@ p{
 #dec{
     display: flex;
 
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     background-image: linear-gradient(90deg, black,#777);
     width: 100%;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px black;
 }
 .conteudo{
-    color: white;
-    font-size: 20px;
+    color:white;
+    font-size: 30px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
    
 }
