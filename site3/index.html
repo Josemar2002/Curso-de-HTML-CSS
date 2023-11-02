@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="templates.css">
+    <title>Fomulário de cadastro</title>
+</head>
+<body>
+    <header>
+        <div class="container_flex">
+            <img src="logo.png" alt="">
+        </div>
+    </header>
+    <form action="formulario.html" method="post">
+        <div class="container">
+            <div class="geral">
+                <div class="titule">
+                <h1>Formulário para compras de veiculos</h1>
+
+                </div>
+                
+                <div class="div1"> 
+                    <label id="text" >
+                        Informe o modelo do veiculo <br>
+                        <input type="text" class="text" autofocus required placeholder="Modelo do veiculo">
+                    </label>
+    
+                    <label id="text">
+                        Informe a marca desejada <br>
+                        <input class="text" type="text" placeholder="informe a marcar do veiculo">
+                    </label>
+    
+                    <label id="text">
+                        Informe seu cep <br>
+                        <input class="text" type="text" placeholder="CEP">
+                    </label>
+                   
+               
+                </div>
+                                    
+                <div class="div2"> 
+                    <label id="text">
+                        Informe seu cpf <br>
+                        <input class="text" type="text" placeholder="CPF">
+                    </label>
+
+                    <label id="text">
+                        Informe sua idade <br>
+                        <input class="text" type="number"  required min="18" max="100" >
+                    </label>
+
+                    <label id="text">
+                        Escolha uma cor           
+                        <input id="cor" type="color" value="cor" >
+                    </label>
+
+                
+                    
+                </div>
+
+                <div class="div3">
+                    <label id="termos">
+                        Comfirme os termos para continuar e consultar seu score.
+                        <input type="checkbox" required >
+                    </label>
+    
+                    <input class="bot" type="submit"  value="enviar">
+                    
+                </div>
+                
+
+
+            </div>
+        </div>
+    
+    </form>
+
+
+</body>
+</html>
