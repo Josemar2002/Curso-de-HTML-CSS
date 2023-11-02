@@ -7,11 +7,12 @@ body{
 }
 header img{
     margin: 20px;
-    width: 200px;
+    width: 350px;
     height: auto;
 }
 .container{
     margin-top:30px;
+    margin-bottom:30px;
     display: flex;
     justify-content: center;
     width: 100%;
@@ -25,8 +26,7 @@ header img{
     justify-content:space-around;
 }
 .titule{
-    background-color: #39aa39;
-    color: white;
+    color:black;
     padding: 10px;
     display: flex;
     align-items: center;
