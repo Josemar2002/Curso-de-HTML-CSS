@@ -180,18 +180,21 @@ a{
     font-family: Arial;
     font-size: 15px;
 }
-.container {
+#container_product {
     display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 
 }
 .title{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     padding: 20px;
     width: 100%;
     font-size: 40px;
-    font-family:'Roboto';
+    font-family:  'Playfair Display', serif;
 }
 h1{
     margin: 10px;
@@ -199,11 +202,109 @@ h1{
 .div1{
     display: flex;
     align-items: center;
-    background-color: rgb(51, 15, 15) ;
+    background-color:black ;
     width: 400px;
     height: 4px;  
 
 }
-
-
+#container_product2 {
+    display: flex;
+    margin: 40px;
+    justify-content: space-around;
+}
+#r2 {
+    height: 500px;
+}
+.product_relogio{
+    display: flex;
+}
+.product2 {
+    display: flex;
+    
+}
+.relogio {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(90deg , white,#cac8c872);
+    box-shadow: 0px 0px 50px #8d8a8a72;
+    
+}
+.preco {
+    font-size: 40px;
+    font-family:  'Playfair Display', serif;
+}
+.bot_r {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#969494;
+    border-top-left-radius: 50px;
+    width: 200px;
+    height: 80px;
+    align-self: self-end;
+}
+.meta {
+    display: flex;  
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.h1 {
+    display: flex;
+    line-height: 20px;
+    justify-content: center;
+}
+.h1 h1 {
+    font-size: 50px;
+}
+.h1 h2 {
+    font-size: 30px;
+    color: #5c5c5c;
+}
+.geral {
+    display: flex;
+   flex-direction: column; 
+    justify-content: flex-end;
+    margin-bottom: 30px;
+    width: 400px;
+}
+.geral2 {
+    display: flex;
+    align-self: self-end;
+   flex-direction: column; 
+    justify-content: flex-start;
+    margin-bottom: 30px;
+    width: 400px;
+}
+.meta svg {
+    margin-top: 20px;
+}
+.img {
+    display: flex;
+    margin-top: 20px;
+}
+#d1 {
+    display: flex;
+    justify-content: end;
+    text-align: end;
+    font-size: 20px;
+    color: #5c5c5c;
+}
+#d2 {
+    display: flex;
+    justify-content: start;
+    text-align: start;
+    font-size: 20px;
+    color: #5c5c5c;
+}
+#d1 h2,
+#d2 h2 {
+    font-size: 25px;
+    color: black;
+    
+}
+img {
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+}
 
