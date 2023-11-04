@@ -75,8 +75,12 @@ nav a {
 }
 .promocao p {
     font-size: 25px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    text-align: center;
+}
+.promocao #text{
+    color: black;
 }
 #promocao {
     display: flex;
@@ -141,13 +145,13 @@ a{
 }
 .icons {
     display: flex;
-    padding: 20px;
+    padding: 10px;
     margin-left: 20px;
     justify-content: center;
     align-items: center;
     background-color: white;
-    width: 80px;
-    height: 80px;
+    border-radius: 50%;
+
 }
 .texto {
     display: flex;
@@ -175,6 +179,30 @@ a{
     color: aliceblue;
     font-family: Arial;
     font-size: 15px;
+}
+.container {
+    display: flex;
+
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    font-size: 40px;
+    font-family:'Roboto';
+}
+h1{
+    margin: 10px;
+}
+.div1{
+    display: flex;
+    align-items: center;
+    background-color: rgb(51, 15, 15) ;
+    width: 400px;
+    height: 4px;  
+
 }
 
 
