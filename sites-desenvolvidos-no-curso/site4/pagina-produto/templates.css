@@ -4,7 +4,6 @@
 body{
     margin: 0px;
     padding: 0px;
-    margin-bottom: 100px;
 }
 header {
     width: 100%;
@@ -35,7 +34,7 @@ header {
 .linha{
     width: 2px;
     height: 150px;
-    background-color: #5c5c5c;
+    background-color: #9c9696;
     margin-right: 30px;
 }
 .linha1{
@@ -47,7 +46,7 @@ header {
 .menu ul li a {
     font-family: 'Roboto';
     font-size: 20px;
-    color:#aaa5a572;
+    color:#9c9696;
     text-decoration: none;
 }
 nav ul {
@@ -233,6 +232,11 @@ h1{
     font-size: 40px;
     font-family:  'Playfair Display', serif;
 }
+.preco2 , .texto_venda h2{
+    font-size: 40px;
+    font-family:  'Playfair Display', serif;
+    color: rgb(125, 197, 17);
+}
 .bot_r {
     display: flex;
     justify-content: center;
@@ -311,7 +315,6 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background:linear-gradient(90deg, #5c5c5c, rgb(188, 189, 247), rgb(77, 77, 238));
     
 
 }
@@ -320,6 +323,13 @@ img {
     justify-content: center;
     align-items: center;
    flex-direction: column;
+   width: 500px;
+   
+}
+.texto_venda h1 ,h2 {
+    margin: 0px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .botao {
     background-color: #5c5c5c;
@@ -333,9 +343,90 @@ img {
     font-family: Arial;
     border-radius: 40px;
 }
-h1 ,h2 {
+ .texto_venda, h1 ,h2 {
     font-size: 40px;
     font-family:  'Playfair Display', serif;
+}
+#img01 {
+    display: flex;
+    margin-right: 60px;
+}
+#img01 img {
+    height: 1100px;
+    width: 400px;
+
+   
+}
+.img02 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.sombra {
+    display: flex;
+    justify-content: flex-start;
+    background: radial-gradient(rgba(8, 0, 0, 0.2) 30%, transparent,transparent);
+    width: 500px;
+    height: 30px;
+    /* box-shadow: 0px 0px 15px black; */
+    border-radius: 70%;
+}
+footer {
+    background-color:rgb(51, 15, 15);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(129, 127, 127);
+}
+.footer_flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 400px;
+
+}
+.flex_img img {
+    display: flex;
+
+}
+.flex_rt {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    line-height: 30px;
+    font-size: 20px;
+    width: 400px;
+    height: auto;
+    margin: 20px;
+   
+}
+.texto_flex {
+    display: flex;
+    padding-top: 10px;
+    border-top: 2px solid rgb(129, 127, 127);
+}
+.texto_flex3 {
+    display: flex;
+    padding-top: 10px;
+    border-top: 2px solid rgb(129, 127, 127);
+    align-items: flex-start;
+    margin-bottom: 5px;
+}
+.cop_flex {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+.cop {
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    font-family: Arial;
+    font-weight: bold;
+    color: rgb(129, 127, 127);
+    width: 28%;
+    padding: 10px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid rgb(129, 127, 127);
 }
 
 
