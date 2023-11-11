@@ -3,19 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript">
+        window.onload = function(){
+            document.querySelector(".menuMobile").addEventListener("click", function (){
+                if(document.querySelector(".menu nav ul").style.display =='flex') {
+                    document.querySelector(".menu nav ul").style.display = 'none';
+                } else {
+                    document.querySelector(".menu nav ul").style.display = 'flex';
+                }
+            });
+        };
+    </script>
     <link rel="stylesheet" href="templates.css">
-    <title>Google</title>
+    <title>Google </title>
+    <link rel="shortcut icon" href="imagens/download.png">
 </head>
 <body>
     <header>
         <div class="container_header">
             <div class="menu">
-                <nav  > 
+                <nav  >
+                    <div class="menuMobile">
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                    </div> 
                     <ul>
                         <li><a href="#">Gmail</a></li>
                         <li><a href="#">Imagens</a></li>
                         <div class="aps">
                             <img id="aps" src="imagens/apps.png" alt="">
+                        </div>
+                        <div class="usuario">
+                            <img src="imagens/perfil.png" alt="">
                         </div>
                         
                     </ul>
@@ -40,7 +60,7 @@
                             </a>
                         </div>
                         <div class="textarea">
-                            <input type="text" id=""  >
+                            <input autofocus autocomplete="copia" type="text" id=""  >
                         </div>
                         <div class="icons">
                             <a href="">
@@ -56,5 +76,24 @@
             </div>
         </div>
     </section>
+    <footer>
+        <div class="container_footer">
+            <div class="footer01">
+                Brasil
+            </div>
+            <div class="linha">
+                    
+            </div>
+            <div class="footer02">
+                <div class="area01">
+                   <a>Sobre</a> <a>Publicidade</a> <a>Negócios</a> <a>Como funciona a pesquisa</a>
+                </div>
+
+                <div class="area02">
+                   <a href="#">Privacidade</a><a href="#">Termo</a><a href="#">Configurações</a>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

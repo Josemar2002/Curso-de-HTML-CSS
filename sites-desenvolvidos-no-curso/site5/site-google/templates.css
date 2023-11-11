@@ -48,12 +48,25 @@ ul , li {
     width:30px;
     height:30px;
 }
+.usuario {
+    display: flex;
+    width:50px;
+    height:50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
 .container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     
 
+}
+section {
+    display: flex ;
+    justify-content: center;
+    height: 437px;
+    align-items: center;
 }
 #img  {
     padding: 20px;
@@ -85,9 +98,6 @@ ul , li {
     justify-content: space-between;
     align-items:center ;
 }
-/* .lupa, .textarea :hover {
-    box-shadow: 5px 5px 10px #ffff;
-} */
 .lupa {
     display: flex;
     justify-content: center;
@@ -119,11 +129,202 @@ input {
     justify-content: space-around;
     width: 100%;
     align-items: center;
-    /* background-color: red; */
 }
  .icons img {
     display: flex;
 
     width:30px;
     height:30px;
+}
+.container_footer {
+    display: flex;
+    flex-wrap: wrap;
+    background-color:#e2e3e6;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    bottom: 0px;
+    
+}
+.footer01 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-left: 30px;
+}
+.linha {
+    background-color: #a3a3a3;
+    width: 100%;
+    height: 1px;
+}
+.footer02{
+    display: flex;
+    align-items: center;
+    margin-left: 35px;
+    margin-right: 35px;
+    justify-content: space-between;
+    width: 100%;
+    height: 0px;
+}
+.area01 {
+    display: flex;
+    width: 50%;
+    justify-content: flex-start;
+}
+.area01 a {
+    text-decoration: none;
+    margin-right: 20px;
+}
+.area01 a:hover {
+    text-decoration: underline;
+    
+}
+.area02 {
+    display: flex;
+}
+.area02 a {
+    text-decoration: none;
+    margin-right: 20px;
+}
+.area02 a:hover {
+    text-decoration: underline; 
+} 
+.footer02 a {
+    color: black;
+
+}
+.menuMobile{
+    display:none;
+    width: 40px;
+    height: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+}
+.mm_line{
+    height: 3px;
+    background-color: #808181;
+}
+@media (max-width:500px) {
+ .container_footer {
+    display: flex;
+    font-size: 8px;
+ }
+ .area01, .area02 {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+ }
+ .menuMobile{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+}
+@media (max-width:600px) {
+   .container_footer {
+        display: flex;
+        width: 100%;
+        font-size: 10px;
+        
+    }
+    .footer02 {
+        display: flex;
+        justify-content: space-between;
+        margin: 10px;
+    }
+    .area01 {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    nav ul{
+        font-size: 13px;
+    }
+    .aps {
+        display: flex;
+        align-items: center;
+        margin-right: 10px;
+        width: 20px;
+        height: 20px;
+    }
+    .usuario img {
+        width: 40px;
+        height: 40px;
+    }
+    .usuario {
+        display: flex;
+        align-items: center;
+    }
+    .pesquisa {
+       display: flex;
+    }
+    .lupa {
+        display: flex;
+        align-items: center;
+    }
+    .lupa svg {
+        width: 20px;
+        height: 20px;
+    }
+    .rt {
+        display: flex;
+        padding-bottom: 5px;
+        max-width: 400px;
+        max-height:30px ;
+    }
+    .textarea {
+        display: flex;
+        align-items: flex-start;
+    }
+    input {
+        width: 250px;
+        height: 20px;
+    }
+    .icons {
+        display: flex;
+        justify-content:space-between ;
+    }
+    .icons img {
+        display: flex;
+        margin-left: 10px;
+        justify-content: space-between;
+        width: 20px;
+        height: 20px;
+    }
+    nav a{
+        margin-top: 10px;
+    }
+    nav .aps {
+        display: flex;
+        justify-content: center;
+        margin-right: 10px;
+    }
+    nav #aps , img {
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+    }
+    nav ul {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        padding: 10px;
+        right: 0;
+        width: 15%;
+        background-color: white;
+       
+
+        
+    }
+    ul {
+ 
+    }
+    .menuMobile{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+        
+    }
 }
