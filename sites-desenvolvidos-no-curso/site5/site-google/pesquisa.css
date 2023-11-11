@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+}
+.header {
+    display: flex;
+    align-items: center;
+    /* background-color: green; */
+    width: 100%;
+    height: 100px;
+}
+#img {
+    display: flex;
+    margin: 30px;
+    /* background-color: red; */
+}
+.form {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    width: 100%;
+}
+.rt {
+    display: flex;
+    border: 1px solid rgb(170, 166, 166);
+    border-radius: 25px;
+    padding: 5px;
+    transition: 0.3s;
+    width: 582px;
+    height: 46px;
+}
+.linha {
+    background-color: #5c5c5c;
+    height: 35px;
+    width: 1px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.rt:hover:not(svg):not(.textarea):not(input) {
+    box-shadow: 0px 0px 5px rgb(146, 146, 146);
+  }
+  .rt a {
+    display: flex;
+    text-decoration: none;
+  }
+.pesquisa {
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+}
+/* .lupa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+   
+} */
+.textarea {
+    display: flex ;
+    padding: 10px;
+    align-items: center;
+    resize: none;
+    width: 400px;
+    height: 37px;
+    display: flex;
+
+}
+input {
+    display: flex;
+    align-items: center;
+    width: 450px;
+    height: 30px;
+    border: none;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.icons {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    padding: 5px;
+   
+}
+ .icons img {
+    display: flex;
+    width:30px;
+    height:30px;
+    /* margin: 5px; */
+}
+.menu_display {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    margin-right: 30px;
+
+}
+.menu {
+    display: flex;
+    align-items: center;
+    
+   
+}
+.menu img {
+    width:50px;
+    height:50px;
+}
+.menu #img {
+    width:25px;
+    height:25px;
+}
+#confg{
+    display: flex;
+    padding: 5px;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+#confg:hover{
+    display: flex;
+    background-color: #d6d6d6;
+    padding: 5px;
+    border-radius: 50%;
+}
+#menu {
+    display: flex;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 50%;
+    transition: 0.3s;
+
+}
+#menu:hover {
+    background-color: #d6d6d6;
+}
