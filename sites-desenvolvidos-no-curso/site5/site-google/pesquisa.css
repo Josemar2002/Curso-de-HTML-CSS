@@ -8,22 +8,18 @@ body {
 }
 .header {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    /* background-color: green; */
     width: 100%;
-    height: 100px;
+    height: 150px;
+    border-bottom: 1px solid rgb(170, 166, 166);
 }
 #img {
     display: flex;
     margin: 30px;
     /* background-color: red; */
 }
-.form {
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-    width: 100%;
-}
+
 .rt {
     display: flex;
     border: 1px solid rgb(170, 166, 166);
@@ -52,13 +48,6 @@ body {
     justify-content: space-between;
     align-items:center ;
 }
-/* .lupa {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-   
-} */
 .textarea {
     display: flex ;
     padding: 10px;
@@ -91,12 +80,11 @@ input {
     display: flex;
     width:30px;
     height:30px;
-    /* margin: 5px; */
 }
 .menu_display {
     display: flex;
     justify-content: flex-end;
-    width: 100%;
+    width: 500px;
     margin-right: 30px;
 
 }
@@ -136,4 +124,33 @@ input {
 }
 #menu:hover {
     background-color: #d6d6d6;
+}
+#navbar {
+    display: flex;
+    width: 900px;
+    height: 50px;
+}
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    /* background-color: #5c5c5c; */
+    width: 100%;
+    margin-bottom: 21px;
+}
+.navbar a {
+    display: flex;
+    text-decoration: none;
+    color: #929292;
+    align-items:flex-end;
+    font-size: 16px;
+    justify-content: space-between;
+    margin-right: 10px;
+    padding: 10px;
+}
+#blue {
+    padding-bottom:6px;
+    border-bottom: 4px solid #218ee2;
+}
+#ferramentas {
+    margin-left: 30px;
 }
