@@ -1,0 +1,22 @@
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    width: 230px;
+    height:60px;
+    background-color: rgb(41, 120, 211);
+    box-shadow: 2px 2px 5px rgb(53, 52, 52);
+}
+a {
+    position: fixed;
+    left: 50%;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+a:hover {
+    background-color: rgb(58, 141, 250) ;
+    box-shadow: 2px 2px 5px rgb(53, 52, 52);
+}
