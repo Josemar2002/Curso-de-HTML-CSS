@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+
+.aviso {
+    width: 400px;
+    height: 100px;
+    background-color: #39aaee;
+    transform: rotate(-45deg) skew(-35deg, 5deg);
+    position: fixed;
+    top: 250px;
+    left: 0px;
+
+}
