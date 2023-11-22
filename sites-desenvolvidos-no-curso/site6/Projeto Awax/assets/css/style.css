@@ -427,6 +427,7 @@ header {
     font-size: 12px;
     color: #b3b3b3;
     font-weight: 600;
+    padding-top: 20px;
 }
 .happy--area .slide-pointers {
     margin-top: 30px;
@@ -557,4 +558,134 @@ header {
     color: #b8b6b6;
     font-size: 12px;
     font-weight: 600;
+}
+
+.section-projects--livro {
+    display: flex;
+    /* justify-content: center; */
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+    
+    
+}
+.img--livro {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    
+
+}
+.conteudos--livros {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 500px;
+    padding: 20px;
+   
+}
+.conteudos--livros p, 
+.conteudos--livros h5{
+    width: 400px;
+    /* color: #b8b6b6; */
+    font-size: 12px;
+    
+
+}
+.conteudos--livros h5 {
+    
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+   
+}
+.conteudos--livros p{
+    width: 400px;
+    color: #b8b6b6;
+    font-size: 12px;
+    margin-bottom: 5px;
+    line-height: 25px;
+    
+   
+}
+span {
+    font-size: 14px;
+    text-transform: uppercase;
+    
+}
+.icns-livros {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ 
+}
+.icns-livros #img1 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px;
+    height: 100px;
+}
+.icns-livros #img2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top:40px;
+    height: 60px;
+    margin-bottom: 20px;
+    padding: 5px;
+   
+}
+.icns-livros #img3 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100px;
+    padding: 5px;
+}
+
+
+.section-body .slide-pointers {
+    margin-top: 30px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-body .pointer {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #b28756;
+    border-radius: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.section-body .pointer.active {
+    background-color: #b28756;
+}
+#flex {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.section-service h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #b28756;
+  
+}
+.section-service.h2 {
+    border: none;
+    width: 150px;
+}
+.base-line {
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+}
+#line {
+    width: 20px;
+    height: 2px;
+    background-color: #999;
 }
